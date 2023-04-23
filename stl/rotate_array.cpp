@@ -18,7 +18,7 @@ int main()
         cout<<i<<" ";       
     }cout<<endl;
 
- //sorting basede on intrasort(combination of heap sort,quick sort,insertion sort)
+ //sorting basede on introsort(combination of heap sort,quick sort,insertion sort)
     sort(v.begin(),v.end());
 
     for(int i:v){

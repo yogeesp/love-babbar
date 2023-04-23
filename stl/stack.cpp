@@ -14,7 +14,7 @@ int main()
 
     s.pop();
     cout<<s.top()<<endl;
-
+    //no indexing like s[1] allowed
     cout<<"Size of stack "<<s.size();
     // for(str i:s){
     //     cout<<i<< " ";

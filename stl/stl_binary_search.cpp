@@ -12,7 +12,7 @@ int main()
     v.push_back(6);
     v.push_back(7);
 
-    cout<<"Finding 6 "<<binary_search(v.begin(),v.end(),6)<<endl;
+    cout<<"Finding 6: "<<binary_search(v.begin(),v.end(),6)<<endl;
     //Index
     cout<<"Lower bound:"<<lower_bound(v.begin()+1,v.end(),6)-v.begin()<<endl;
     
@@ -29,5 +29,6 @@ int main()
     string abcd ="abcd";
     reverse(abcd.begin(),abcd.end());
     cout<<"Reversed string: "<<abcd<<endl;
+
     return 0;
 }

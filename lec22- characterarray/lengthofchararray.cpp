@@ -17,7 +17,7 @@ int main()
     
     cout<<"Enter your name"<<endl;
     cin>>name;
-    //elemnts after index 2 wont be visible
+    //elemnts after index 2 wont be visible if 
     //name[2]='\0';
 
     cout<<name<<endl;

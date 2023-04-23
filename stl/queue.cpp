@@ -1,3 +1,4 @@
+//FIFO
 #include<iostream>
 #include<queue>
 using namespace std;
@@ -9,6 +10,7 @@ int main()
     q.push(4);
     q.push(3);
 
+    cout<<q.back()<<endl;
     cout<<q.front()<<endl;
     // for(int i:q){
     //     cout<<q<<" ";
