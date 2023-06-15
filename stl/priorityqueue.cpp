@@ -9,7 +9,7 @@ int main()
 
     //min-heap
     priority_queue<int,vector<int> ,greater<int>>mini;
-    
+    //push pop time complexity:o(log n)
     maxi.push(1);
     maxi.push(2);
     maxi.push(10);

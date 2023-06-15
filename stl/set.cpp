@@ -1,8 +1,11 @@
+//Stores unique elements in sorted order
+//Uses Binary Search Tree (BST)
+//No modification,only insertion or deletion
 #include<iostream>
 #include<set>
 using namespace std;
  
-int main()
+int main() 
 {
     set<int> s;
 
@@ -10,7 +13,7 @@ int main()
     s.insert(5);
     s.insert(2);
     s.insert(6);
-    s.insert(8);
+    s.emplace(8);
 
     for(int i:s){
         cout<<i<<endl;
@@ -27,9 +30,9 @@ int main()
     cout<<endl;
     //Check if 5 is present,count complexity:O(log n)
     cout<<s.count(5)<<endl;
-
+    //find() returns iterator pointing to 6
     set<int>::iterator itr = s.find(6);
-
+    cout<<""
     // time complexity of end:O(log n)
     
     for(set<int>::iterator it2=itr;it2!=s.end();it2++){
