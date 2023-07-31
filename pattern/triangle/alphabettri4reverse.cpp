@@ -1,3 +1,9 @@
+/* Print pattern like:
+E
+DE
+CDE
+BCDE */
+
 #include<iostream>
 using namespace std;
  

@@ -1,3 +1,10 @@
+/* 
+1
+22
+333
+4444
+55555 */
+
 #include<iostream>
 using namespace std;
  
